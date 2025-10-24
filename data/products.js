@@ -42,9 +42,8 @@ export const products = [
     description:
       "Zümrüt yeşili kadife yüzeye sahip bu seccade, el işçiliği altın şeritler ve ipek püsküllerle tamamlanmıştır. Yumuşak dokusu ve kaymaz tabanı ile hem şıklık hem de konfor sunar.",
     images: [
-      "https://images.unsplash.com/photo-1617032213039-7b5c78bbd76a?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
+      "/products/kadife-seccade-zumrut-1.webp",
+      "/products/kadife-seccade-zumrut-2.webp",
     ],
     tags: ["yeniler", "kadife", "hediye"],
   },
@@ -64,8 +63,8 @@ export const products = [
     description:
       "Bakır detaylı buhurdan, doğal misk taşları ve hatıra kartı ile birlikte zarif kadife kutuda sunulur. Misafirlerinizi hoş kokularla karşılamak için ideal bir set.",
     images: [
-      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1612158734458-de2c4b094d4d?auto=format&fit=crop&w=1200&q=80",
+      "/products/misk-odas-incense-kiti-1.webp",
+      "/products/misk-odas-incense-kiti-2.webp",
     ],
     tags: ["hediye", "populer"],
   },
@@ -85,8 +84,8 @@ export const products = [
     description:
       "Geleneksel hat sanatının modern yorumuyla hazırlanan bu eser, el yapımı ahşap çerçeve ve altın varak bezemeleriyle salona şıklık katar. Her biri sınırlı sayıda üretilmiştir.",
     images: [
-      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=1200&q=80",
+      "/products/hat-sanati-bismillah-cerceve.jpeg",
+      "/products/hat-sanati-bismillah-cerceve-2.jpeg",
     ],
     tags: ["sanat", "onerilen"],
   },
@@ -106,8 +105,8 @@ export const products = [
     description:
       "Her tane özenle işlenmiş, el yapımı zeytin ağacı tesbih. Kadife kesesi ile birlikte gönderilir, günlük kullanıma ve hediyelik sunuma uygundur.",
     images: [
-      "https://images.unsplash.com/photo-1515443965091-0b7c5217c07d?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1200&q=80",
+      "/products/zeytin-agaci-tesbih-1.jpg",
+      "/products/zeytin-agaci-tesbih-2.jpg",
     ],
     tags: ["aksesuar", "tesbih"],
   },
@@ -127,8 +126,8 @@ export const products = [
     description:
       "Oriental desenlere sahip cam panelli bu fener, sıcak beyaz LED ışığı ile ortama huzurlu bir ambians katar. USB şarjlıdır ve masa üstü kullanıma uygundur.",
     images: [
-      "https://images.unsplash.com/photo-1521600636000-7eed798b1b8b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "/products/ramazan-feneri-altin-1.jpg",
+      "/products/ramazan-feneri-altin-2.jpg",
     ],
     tags: ["ramazan", "dekor"],
   },
@@ -148,7 +147,7 @@ export const products = [
     description:
       "Cam kavanozu ve bakır kapak detayıyla öne çıkan amber & oud mum, 45 saate kadar yanış süresi sunar. Saf soya mumu ile üretilmiştir.",
     images: [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
+      "/products/amber-ve-oud-kandil.jpg",
     ],
     tags: ["mum", "aromaterapi"],
   },
@@ -168,8 +167,8 @@ export const products = [
     description:
       "Sahur sofralarına zariflik katan bu set; bakır detaylı iki porselen fincan, Türk kahvesi ve hurma-lokum seçkisiyle tamamlanmıştır.",
     images: [
-      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?auto=format&fit=crop&w=1200&q=80",
+      "/products/sahur-keyfi-serisi-1.jpg",
+      "/products/sahur-keyfi-serisi-2.jpg",
     ],
     tags: ["sahur", "set"],
   },
@@ -189,7 +188,7 @@ export const products = [
     description:
       "Sabah ve akşam kullanıma uygun, saf gül suyu içeriğiyle cildi tazeler ve canlandırır. Cam şişede sunulur. Şu an ön siparişle alınabilir.",
     images: [
-      "https://images.unsplash.com/photo-1612810806695-30ba0a14227b?auto=format&fit=crop&w=1200&q=80",
+      "/products/gulsuyu-yuz-sis.webp",
     ],
     tags: ["bakim", "outlet"],
   },

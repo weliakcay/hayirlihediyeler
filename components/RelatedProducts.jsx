@@ -22,7 +22,7 @@ export default function RelatedProducts({ products }) {
           <Link
             key={product.id}
             href={`/products/${product.handle}`}
-            className="min-w-[220px] flex-shrink-0 rounded-3xl border border-emerald-200 bg-white/70 p-3 shadow-soft transition hover:-translate-y-1 hover:border-gold-300"
+            className="min-w-[200px] flex-shrink-0 rounded-3xl border border-emerald-200 bg-white/70 p-3 shadow-soft transition hover:-translate-y-1 hover:border-gold-300 sm:min-w-[220px]"
           >
             <div className="relative h-40 w-full overflow-hidden rounded-2xl">
               <Image

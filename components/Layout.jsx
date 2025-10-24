@@ -9,7 +9,7 @@ export default function Layout({ children }) {
     <div className="min-h-screen bg-cream font-sans text-deep-green">
       <AnnouncementBar message="500 TL üzeri alışverişlerde ücretsiz kargo." />
       <Header />
-      <main className="mx-auto w-full max-w-[1400px] px-6 pb-16 pt-10 lg:px-8">
+      <main className="mx-auto w-full max-w-[1400px] px-4 pb-16 pt-8 sm:px-6 md:pt-10 lg:px-8">
         {children}
       </main>
       <Footer />

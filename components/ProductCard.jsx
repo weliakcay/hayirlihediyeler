@@ -21,7 +21,7 @@ export default function ProductCard({ product }) {
       whileHover={{ y: -6 }}
       className="group flex flex-col overflow-hidden rounded-3xl border border-emerald-700/40 bg-cream shadow-soft transition"
     >
-      <div className="relative h-72 overflow-hidden">
+      <div className="relative h-64 overflow-hidden sm:h-72">
         <Image
           src={images[0]}
           alt={name}
@@ -38,12 +38,12 @@ export default function ProductCard({ product }) {
           </span>
         ) : null}
       </div>
-      <div className="flex flex-1 flex-col gap-4 p-6">
+      <div className="flex flex-1 flex-col gap-3 p-6 sm:gap-4">
         <div>
           <h3 className="font-display text-xl text-deep-green">
             <Link href={`/products/${handle}`}>{name}</Link>
           </h3>
-          <div className="mt-3 flex items-center gap-2 text-sm text-emerald-900/80">
+          <div className="mt-2 flex flex-wrap items-center gap-2 text-xs text-emerald-900/80 sm:text-sm">
             <div className="flex items-center gap-1 text-gold-400">
               {Array.from({ length: 5 }, (_, i) => (
                 <Star
@@ -58,13 +58,13 @@ export default function ProductCard({ product }) {
           </div>
         </div>
 
-        <div className="mt-auto flex items-center justify-between">
-          <span className="text-lg font-semibold text-emerald-900">
+        <div className="mt-auto flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <span className="text-base font-semibold text-emerald-900 sm:text-lg">
             {price.toLocaleString("tr-TR")} ₺
           </span>
           <Link
             href={`/products/${handle}`}
-            className="rounded-full border border-deep-green bg-deep-green px-4 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-gold-200 transition hover:bg-emerald-900"
+            className="inline-flex w-full items-center justify-center rounded-full border border-deep-green bg-deep-green px-5 py-2 text-xs font-semibold uppercase tracking-[0.3em] text-gold-200 transition hover:bg-emerald-900 sm:w-auto"
           >
             İncele
           </Link>

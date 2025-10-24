@@ -26,10 +26,9 @@ export default function FilterSidebar({
 }) {
   const containerClasses = clsx(
     "overflow-hidden rounded-3xl border border-emerald-800/60 bg-emerald-950/50 text-cream shadow-soft transition-all duration-300",
-    {
-      "max-h-0 opacity-0 lg:max-h-none lg:opacity-100 lg:p-6": !isOpen,
-      "max-h-[2000px] opacity-100 p-6": isOpen,
-    },
+    isOpen
+      ? "max-h-[2000px] opacity-100 p-4 sm:p-6"
+      : "max-h-0 overflow-hidden p-0 opacity-0 lg:max-h-none lg:opacity-100 lg:p-6",
     "lg:block",
   );
 

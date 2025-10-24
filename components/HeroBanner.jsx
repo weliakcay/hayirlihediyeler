@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function HeroBanner() {
   return (
-    <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-deep-green via-emerald-900 to-emerald-700 px-6 py-20 text-cream shadow-xl">
+    <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-deep-green via-emerald-900 to-emerald-700 px-5 py-14 text-cream shadow-xl sm:px-8 sm:py-20">
       <div className="absolute -left-24 -top-24 h-72 w-72 rounded-full bg-gold-500/10 blur-3xl" />
       <div className="absolute -bottom-12 right-0 h-64 w-64 rounded-full bg-gold-600/20 blur-3xl" />
       <motion.div
@@ -24,7 +24,7 @@ export default function HeroBanner() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
-          className="font-display text-4xl text-gold-200 sm:text-5xl md:text-6xl"
+          className="font-display text-3xl text-gold-200 sm:text-5xl md:text-6xl"
         >
           Ruhunuza huzur katan hediyeleri keşfedin
         </motion.h1>
@@ -32,7 +32,7 @@ export default function HeroBanner() {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4 }}
-          className="max-w-xl text-lg text-cream/80"
+          className="max-w-xl text-base leading-relaxed text-cream/80 sm:text-lg"
         >
           Hayırlı Hediyeler, İslami yaşam stiline zarafet katan seçkiler sunar.
           Koleksiyonlarımızla sevdiklerinize unutulmaz anlar armağan edin.
@@ -45,13 +45,13 @@ export default function HeroBanner() {
         >
           <Link
             href="/collections/tum-urunler"
-            className="rounded-full border border-gold-400/50 bg-gold-500/20 px-10 py-3 text-sm font-semibold uppercase tracking-[0.35em] text-gold-100 transition hover:bg-gold-500/40"
+            className="w-full rounded-full border border-gold-400/50 bg-gold-500/20 px-8 py-3 text-xs font-semibold uppercase tracking-[0.35em] text-gold-100 transition hover:bg-gold-500/40 sm:w-auto sm:px-10 sm:text-sm"
           >
             Koleksiyonu İncele
           </Link>
           <Link
             href="/products/kadife-seccade-zumrut"
-            className="rounded-full border border-gold-400/30 bg-transparent px-10 py-3 text-sm font-semibold uppercase tracking-[0.35em] text-cream transition hover:border-gold-400 hover:text-gold-200"
+            className="w-full rounded-full border border-gold-400/30 bg-transparent px-8 py-3 text-xs font-semibold uppercase tracking-[0.35em] text-cream transition hover:border-gold-400 hover:text-gold-200 sm:w-auto sm:px-10 sm:text-sm"
           >
             En Çok Sevilenler
           </Link>

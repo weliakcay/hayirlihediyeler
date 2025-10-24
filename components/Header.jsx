@@ -75,11 +75,11 @@ export default function Header() {
       </div>
 
       <div
-        className={`border-t border-emerald-800 bg-deep-green px-6 pb-6 pt-4 transition-transform duration-200 ease-out lg:hidden ${
-          isMenuOpen ? "translate-y-0" : "-translate-y-full"
+        className={`border-t border-emerald-800 bg-deep-green px-6 transition-all duration-300 ease-out lg:hidden ${
+          isMenuOpen ? "max-h-[420px] py-4 opacity-100" : "max-h-0 py-0 opacity-0"
         }`}
       >
-        <nav className="flex flex-col gap-4 text-sm font-semibold uppercase tracking-[0.2em] text-cream">
+        <nav className="flex flex-col gap-4 overflow-hidden text-sm font-semibold uppercase tracking-[0.2em] text-cream">
           {navLinks.map((link) => (
             <Link
               key={link.href}

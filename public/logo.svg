@@ -1,0 +1,13 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="256" fill="#0E4F43"/>
+  <circle cx="256" cy="256" r="200" stroke="#C9A24A" stroke-width="14" fill="none"/>
+  <path d="M194 155C191 195 191 258 192 352H168C167 275 167 216 170 174C171 158 178 149 194 147V155Z" fill="#C9A24A"/>
+  <path d="M318 155C321 195 321 258 320 352H344C345 275 345 216 342 174C341 158 334 149 318 147V155Z" fill="#C9A24A"/>
+  <path d="M222 176H242V352H222V176Z" fill="#C9A24A"/>
+  <path d="M290 176H270V352H290V176Z" fill="#C9A24A"/>
+  <path d="M196 214C212 212 221 215 230 225C239 235 247 253 253 280C248 305 240 323 229 333C218 343 206 348 196 348V322C202 322 207 320 210 316C213 312 217 304 220 292C215 266 207 248 196 238V214Z" fill="#C9A24A"/>
+  <path d="M316 214C300 212 291 215 282 225C273 235 265 253 259 280C264 305 272 323 283 333C294 343 306 348 316 348V322C310 322 305 320 302 316C299 312 295 304 292 292C297 266 305 248 316 238V214Z" fill="#C9A24A"/>
+  <path d="M203 380H309C327 380 340 388 348 404C336 399 324 396 311 396H201C188 396 176 399 164 404C172 388 185 380 203 380Z" fill="#C9A24A"/>
+  <text x="50%" y="440" text-anchor="middle" font-family="'Playfair Display', serif" font-size="42" letter-spacing="0.4em" fill="#C9A24A">HAYIRLI</text>
+  <text x="50%" y="480" text-anchor="middle" font-family="'Playfair Display', serif" font-size="42" letter-spacing="0.4em" fill="#C9A24A">HEDİYELER</text>
+</svg>

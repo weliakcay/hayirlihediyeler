@@ -19,7 +19,7 @@ export default function Header() {
         <Link href="/" className="flex items-center gap-3">
           <div className="relative h-12 w-12 overflow-hidden rounded-full border border-gold-500/60 bg-emerald-900">
             <Image
-              src="/logo.svg"
+              src="/brand/logo.svg"
               alt="Hayırlı Hediyeler Logo"
               fill
               sizes="48px"

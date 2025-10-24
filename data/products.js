@@ -201,6 +201,28 @@ export const products = [
     tags: ["tasınabilir", "aksesuar", "hızlı kuruma"],
   },
   {
+    id: "hayirli-bottle",
+    handle: "hayirli-hediyeler-matarasi",
+    name: "Hayırlı Hediyeler Matarası",
+    price: 640,
+    currency: "TRY",
+    category: "tesbih-ve-aksesuarlari",
+    collection: "tasinabilir-urunler",
+    secondaryCollections: ["hediye-setleri"],
+    availability: "in_stock",
+    rating: 4.9,
+    reviews: 27,
+    shortDescription:
+      "450 ml zemzem suyu hediyesiyle gelen, gün boyu tazeliğini koruyan çift çeperli matara.",
+    description:
+      "Hayırlı Hediyeler matarası; kadife kılıfındaki altın HH monogramı, çift çeperli paslanmaz gövdesi ve sızdırmaz kapağıyla manevi yolculuklarınıza eşlik eder. İçine yerleştirilen 450 ml zemzem suyu hediye desteği ile gelen matara, içeceğin sıcaklığını 12 saat, soğukluğunu 18 saate kadar korur. Minimal taşıma halkası ve çıkarılabilir süzgeci sayesinde hem çay hem zemzem için kullanılabilir; günlük ibadet ritüellerine zarif bir dokunuş katar.",
+    images: [
+      "/products/hayirli-hediyeler-matarasi-1.jpg",
+      "/products/hayirli-hediyeler-matarasi-2.jpg",
+    ],
+    tags: ["matara", "zemzem", "tasınabilir"],
+  },
+  {
     id: "rosewater-mist",
     handle: "gulsuyu-yuz-sis",
     name: "Gülsuyu Yüz Şişesi",

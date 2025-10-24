@@ -34,9 +34,9 @@ export const collections = [
 export const products = [
   {
     id: "velvet-prayer-mat",
-    handle: "kadife-seccade-zumrut",
-    name: "Kadife Seccade - Zümrüt",
-    price: 1290,
+    handle: "seccade-setleri",
+    name: "Seccade Setleri",
+    price: 1490,
     currency: "TRY",
     category: "ev-dekorasyonu",
     collection: "ev-dekorasyonu",
@@ -44,14 +44,14 @@ export const products = [
     rating: 4.9,
     reviews: 32,
     shortDescription:
-      "Pamuksu dokulu, altın yaldızlı motiflere sahip zarif seccade.",
+      "Kadife seccade ve el yapımı tesbihten oluşan zarif hediye seti.",
     description:
-      "Zümrüt yeşili kadife yüzeye sahip bu seccade, el işçiliği altın şeritler ve ipek püsküllerle tamamlanmıştır. Yumuşak dokusu ve kaymaz tabanı ile hem şıklık hem de konfor sunar.",
+      "Seccade Setleri; kaymaz tabanlı yumuşak kadife seccade ile uyumlu tonlarda el işçiliği tesbihi aynı kutuda buluşturur. Lacivert, bej, siyah ve pembe renk alternatifleri bulunan seccadeler altın varak bordürlerle çerçevelenirken, tesbihler pirinç püskül ve doğal taş ara parçalarla tamamlanmıştır. Seyirlik şıklık ve huzurlu ibadet deneyimini bir arada sunar.",
     images: [
       "/products/kadife-seccade-zumrut-1.webp",
       "/products/kadife-seccade-zumrut-2.webp",
     ],
-    tags: ["yeniler", "kadife", "hediye"],
+    tags: ["yeniler", "set", "seccade"],
   },
   {
     id: "incense-set",

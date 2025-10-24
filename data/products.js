@@ -23,6 +23,12 @@ export const collections = [
     description:
       "Sevdikleriniz için özenle hazırlanmış, anlamlı hediye kutuları.",
   },
+  {
+    handle: "tasinabilir-urunler",
+    title: "Taşınabilir Ürünler",
+    description:
+      "Yanınızda taşıyabileceğiniz, günlük ritüelleri kolaylaştıran kompakt ürünler.",
+  },
 ];
 
 export const products = [
@@ -173,6 +179,28 @@ export const products = [
     tags: ["sahur", "set"],
   },
   {
+    id: "travel-ablution-towel",
+    handle: "tasinabilir-abdest-havlusu",
+    name: "Taşınabilir Abdest Havlusu",
+    price: 360,
+    currency: "TRY",
+    category: "tesbih-ve-aksesuarlari",
+    collection: "hediye-setleri",
+    secondaryCollections: ["tasinabilir-urunler"],
+    availability: "in_stock",
+    rating: 4.8,
+    reviews: 19,
+    shortDescription:
+      "Kılıfından çıktığında 30x80 cm olan, hızlı kuruyan taşınabilir abdest havlusu.",
+    description:
+      "Lacivert, mavi, yeşil, pembe ve gri renk seçenekleriyle gelen bu kompakt havlu; 6x9 cm ölçülerindeki özel kılıfında taşınır, açıldığında 30x80 cm boyutuna ulaşır. Yumuşak mikrofiber dokusu sayesinde suyu hızla emer ve çabucak kurur, seyahatlerde veya ofiste abdest tazelemek için idealdir.",
+    images: [
+      "/products/tasinabilir-abdest-havlusu-1.jpg",
+      "/products/tasinabilir-abdest-havlusu-2.jpg",
+    ],
+    tags: ["tasınabilir", "aksesuar", "hızlı kuruma"],
+  },
+  {
     id: "rosewater-mist",
     handle: "gulsuyu-yuz-sis",
     name: "Gülsuyu Yüz Şişesi",
@@ -209,5 +237,13 @@ export function getProductsByCollection(handle) {
   if (handle === "all-products" || handle === "tum-urunler") {
     return products;
   }
-  return products.filter((product) => product.collection === handle);
+  return products.filter((product) => {
+    if (product.collection === handle) {
+      return true;
+    }
+    if (product.secondaryCollections?.includes(handle)) {
+      return true;
+    }
+    return false;
+  });
 }

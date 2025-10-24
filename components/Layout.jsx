@@ -1,7 +1,6 @@
 import AnnouncementBar from "./AnnouncementBar";
 import Header from "./Header";
 import Footer from "./Footer";
-import NewsletterBanner from "./NewsletterBanner";
 import WhatsAppBubble from "./WhatsAppBubble";
 import CookieConsent from "./CookieConsent";
 
@@ -14,7 +13,6 @@ export default function Layout({ children }) {
         {children}
       </main>
       <Footer />
-      <NewsletterBanner />
       <WhatsAppBubble />
       <CookieConsent />
     </div>
